@@ -1,0 +1,51 @@
+html{
+    background-image: url(background.jpg);
+}
+
+.wrapper{
+    width: 80%;
+    margin: auto;
+}
+
+header,nav{
+    background-color: black;
+    color: white;
+    width: 100%;
+    padding: 1px 20px 1px 20px;;
+    margin-top: 20px;
+    font-family: arial;
+    text-align: center;
+}
+
+button{
+    background-color: white;
+    padding: 5px 10px 5px 10px;
+    margin: 10px;
+    min-width: 70px;
+    color: black;
+}
+
+section{
+    background-color: black;
+    color: white;
+    width: 100%;
+    padding: 10px 20px 10px 20px;
+    margin-top: 20px;
+}
+
+a{
+    color: white;
+}
+p,h1,h2,h3,h4,h5,li,th,td{
+    font-family: arial;
+    line-height: 24px;
+}
+
+td{
+    min-width: 100px;
+}
+
+th{
+    text-align: left;
+    min-width: 110px;
+}
